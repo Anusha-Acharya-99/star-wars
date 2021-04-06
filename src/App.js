@@ -16,7 +16,6 @@ function App(){
         <Logo/>
         <Icons/>
         <Footer/>
-
     </div>
   );
 }
