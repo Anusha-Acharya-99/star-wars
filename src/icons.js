@@ -1,54 +1,56 @@
 import React from 'react';
-import icon1 from './images/films_normal.png';
-import icon2 from './images/species_normal.png';
-import icon3 from './images/planets_normal.png';
-import icon4 from './images/characters_normal.png';
-import icon5 from './images/droids_normal.png';
-import icon6 from './images/vehicles_normal.png';
+import {Link} from 'react-router-dom';
+import films from './images/films_normal.png';
+import species from './images/species_normal.png';
+import planets from './images/planets_normal.png';
+import people from './images/characters_normal.png';
+import starship from './images/droids_normal.png';
+import vehicles from './images/vehicles_normal.png';
 
 function Icons(){
     return(
         <div className="icons">
             <ul className="icon">
                 <li>
-                    <a href="">
-                        <img src={icon1} className="image"/>
+                    <Link to = "/films">
+                        <img src={films} className="image"/>
                         <div className="name">FILMS</div>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
-                        <img src={icon2} className="image"/>
+                    <Link to = "/species">
+                        <img src={species} className="image"/>
                         <div className="name">SPECIES</div>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
-                        <img src={icon3} className="image"/>
+                    <Link to = "/planets">
+                        <img src={planets} className="image"/>
                         <div className="name">PLANETS</div>
-                    </a>
+                    </Link>
                 </li>
             </ul>
             <ul className="icon">
                 <li>
-                    <a href="">
-                        <img src={icon4} className="image"/>
-                        <div className="name">CHARACTERS</div>
-                    </a>
+                    <Link to = "/people">
+                        <img src={people} className="image"/>
+                        <div className="name">PEOPLE</div>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
-                        <img src={icon5} className="image"/>
+                    <Link to = "/starship">
+                        <img src={starship} className="image"/>
                         <div className="name">STARSHIP</div>
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
-                        <img src={icon6} className="image"/>
+                    <Link to = "/vehicles">
+                        <img src={vehicles} className="image"/>
                         <div className="name">VEHICLES</div>
-                    </a>
+                    </Link>
                 </li>
                 </ul>
+                <hr></hr>
         </div>
     )
 }

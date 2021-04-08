@@ -1,8 +1,6 @@
 import React from 'react';
 import image from './images/background.png';
-import Logo from './logo.js';
-import Icons from './icons.js';
-import Footer from './footer.js'
+import Route from './Route';
 import './App.css';
 
 function App(){
@@ -13,9 +11,7 @@ function App(){
         width : '100vw',
         height : '100vh',
       }}>
-        <Logo/>
-        <Icons/>
-        <Footer/>
+        <Route/>
     </div>
   );
 }

@@ -5,6 +5,7 @@ function Logo(){
     return(
         <div className ="logo">
             <img src = {logo}/>
+            <hr></hr>
         </div>
     )
 }

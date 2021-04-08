@@ -15,7 +15,8 @@
 
 .name {
   color: aquamarine;
-  font-size: 10px;
+  font-size: 15px;
+  text-align: center;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
   }
 
   .end {
-    font: 55px;
+    font-size : 10px;
     color: aliceblue ;
     margin-right: 20px;
     margin-left: 20px;
@@ -40,6 +41,16 @@ a {
 
 .footer {
     text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align : center;
+  color :aliceblue
+}
+
+.endlogo {
+  vertical-align: middle;
 }
 
   
