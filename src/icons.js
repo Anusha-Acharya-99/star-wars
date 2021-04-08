@@ -50,7 +50,7 @@ function Icons(){
                     </Link>
                 </li>
                 </ul>
-                <hr></hr>
+                <hr color = "#054979"></hr>
         </div>
     )
 }

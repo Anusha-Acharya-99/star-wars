@@ -1,5 +1,6 @@
 .logo {
     text-align: center;
+    padding-top: 20px;
 }
 
 .icon {
@@ -8,20 +9,17 @@
 }
 
 .image {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     margin: 30px 30px 10px 30px;
   }
 
 .name {
-  color: aquamarine;
+  
+  color: #FFFFFF;
   font-size: 15px;
   text-align: center;
 }
-
-a {
-    text-decoration: none;
-  }
 
   .end {
     font-size : 10px;
@@ -53,4 +51,19 @@ h2 {
   vertical-align: middle;
 }
 
-  
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin : 0;
+}
+
+hr {
+  width: 800px;
+  size: 1px;
+  margin-top : 20px;
+}
+
+a {
+  text-decoration: none;
+}
