@@ -1,5 +1,5 @@
 function TermsOfUse(){
-    return <h2>TermsOfUse</h2>
+    return <h2>Terms Of Use</h2>
 }
 
 export default TermsOfUse;

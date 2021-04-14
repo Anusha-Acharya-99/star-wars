@@ -1,17 +1,12 @@
 import React from 'react';
 import image from './images/background.png';
-import Route from './Route';
+import Routes from './Route';
 import './App.css';
 
-function App(){
-  return(
-    <div style = {{backgroundImage: `url(${image})`,
-        backgroundSize: 'cover',
-        backgroundPosition :'center',
-        width : '100vw',
-        height : '100vh',
-      }}>
-        <Route/>
+function App() {
+  return (
+    <div className= "app">
+        <Routes/>
     </div>
   );
 }

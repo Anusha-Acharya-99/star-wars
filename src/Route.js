@@ -12,7 +12,7 @@ import Helpdesk from './links/helpDesk';
 import DisneyStore from './links/disneyStore';
 import Homepage from './homepage';
 
-export default() => {
+const Routes = () => {
     return(
         <Switch>
             <Route exact path = {"/"} component= {Homepage}/>
@@ -31,6 +31,7 @@ export default() => {
     )
 }
 
+export default Routes;
 
 
 

@@ -1,5 +1,5 @@
 function legalNotices(){
-    return <h2>legalNotices</h2>
+    return <h2>Legal Notices</h2>
 }
 
 export default legalNotices;

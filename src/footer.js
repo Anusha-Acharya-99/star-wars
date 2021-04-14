@@ -5,10 +5,8 @@ import {Link} from 'react-router-dom';
 function Footer(){
     return(
         <div className="footer">
-            <div className="inner-footer">
-                <span>
+            <div className="footer1">
                     <img src={footer} className="endlogo"/>
-                </span>
                 <span className="shortcut">
                     <Link className="end" to = "termsofuse">TERMS OF USE</Link>
                     <Link className="end" to = "legalnotices">LEGAL NOTICES</Link>
@@ -17,7 +15,7 @@ function Footer(){
                     <Link className="end" to = "disneystore">STAR WARS AI DISNEY STORE</Link>
                 </span>
             </div>
-            <div className="outer-footer">TM &copy Lucasfilm ltd. All Rights Reserved</div>
+            <div className="footer2">TM &copy Lucasfilm ltd. All Rights Reserved</div>
         </div>
     )
         

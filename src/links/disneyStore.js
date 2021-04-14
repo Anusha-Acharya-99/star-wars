@@ -1,5 +1,5 @@
 function DisneyStore(){
-    return <h2>DisneyStore</h2>
+    return <h2>Disney Store</h2>
 }
 
 export default DisneyStore;
