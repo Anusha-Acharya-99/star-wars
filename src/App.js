@@ -1,6 +1,5 @@
 import React from 'react';
-import image from './images/background.png';
-import Routes from './Route';
+import Routes from './Homepage/Route';
 import './App.css';
 
 function App() {

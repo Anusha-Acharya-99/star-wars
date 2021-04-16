@@ -1,10 +1,11 @@
 import React from 'react';
-import footer from './images/footer_logo.png';
+import footer from '../images/footer_logo.png';
 import {Link} from 'react-router-dom';
 
 function Footer(){
     return(
         <div className="footer">
+            <div className="border"></div>
             <div className="footer1">
                     <img src={footer} className="endlogo"/>
                 <span className="shortcut">
