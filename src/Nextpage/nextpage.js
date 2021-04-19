@@ -8,7 +8,9 @@ const Nextpage = ({match}) => {
     return (
         <div className = "nextpage">
             <Logo />
-            <Navbar name={match}/>
+            <div className="holder">
+                <Navbar name={match} />
+            </div>
             <Footer/>
         </div>
     )
