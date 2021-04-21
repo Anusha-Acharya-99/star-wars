@@ -20,7 +20,7 @@ let Data = [
     { name: "SPECIES", src: species, srcHov: speciesHov },
     { name: "PLANETS", src: planets, srcHov: planetsHov },
     { name: "PEOPLE", src: people, srcHov: peopleHov },
-    { name: "STARSHIP", src: starship, srcHov: starshipHov },
+    { name: "STARSHIPS", src: starship, srcHov: starshipHov },
     { name: "VEHICLES", src: vehicles, srcHov: vehiclesHov },
 ];
 

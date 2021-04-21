@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import List from './list';
 import { NavLink } from 'react-router-dom';
 
-const top = ['films','species','planets','people','starship','vehicles']
+const top = ['films','species','planets','people','starships','vehicles']
 
-const Navbar = ({name}) => {
+const Navbar = ({ name }) => {
     const [select, setSelect] = useState(name.params.id);
 
     const handleClick = (e) => {
@@ -11,14 +12,17 @@ const Navbar = ({name}) => {
     }
     
     return (
+        <div>
         <div className="navbar">
                 <ul className = "nav-ul">
-                {top.map(data => {
+                {top.map((data,id)=> {
                     return (data === select ? 
-                        <li className="nav-list" className = "selected" > {data.toUpperCase()}</li> :
-                        <NavLink to={`/${data}`} className = "nav-links"><li className="nav-list" onClick = {handleClick}> { data.toUpperCase()}</li></NavLink> )
+                        <li key={id} className="nav-list selected"> {data.toUpperCase()}</li> :
+                        <NavLink to={`/${data}`} key={id} className="nav-links"><li className="nav-list" onClick={handleClick}> {data.toUpperCase()}</li></NavLink>)
                 })}
-                    </ul>
+                </ul>
+            </div>
+            <List info={name}/>
         </div>
     )
 
