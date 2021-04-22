@@ -28,6 +28,7 @@ const List = ({ info }) => {
     const getData = async () => {
         return(await axios.get(presUrl)
             .then(res => {
+                console.log(res);
                 setList(res.data.results);
                 setNextUrl(res.data.next);
                 setPrevUrl(res.data.previous);
@@ -37,8 +38,8 @@ const List = ({ info }) => {
         )}
 
     return (
-        <div>
-            <DispList id={id} list={list} />
+        <div>(
+            <DispList id={id} list={list}/>
             <div className = "buttons">
             {
                 prevUrl ? <Buttons click= {handlePrev} content = "PREVIOUS" cName = "left"/> : null

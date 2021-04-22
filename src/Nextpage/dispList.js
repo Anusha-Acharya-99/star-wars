@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Route } from 'react-router-dom';
+import List from './list'
 
 const DispList = ({id,list}) => {
     return (
@@ -7,8 +8,9 @@ const DispList = ({id,list}) => {
             <ul className = "ul-column">
             {
                     list.map((li, index) => {
-                        return ( <NavLink to = {`/${id}/${index}`} className = "nav-links">
-                            <li key={index} className="list-column">{li.name || li.title}</li></NavLink>)
+                        return (
+                            <NavLink to={`/${id}/${index}`} className="nav-links" >
+                                <li key={index} className="list-column">{(li.name || li.title).toUpperCase()}</li></NavLink>)
                 })
                 }
             </ul>

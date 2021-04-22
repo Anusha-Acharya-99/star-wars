@@ -6,7 +6,8 @@ const Routes = () => {
     return(
         <Switch>
             <Route exact path = {"/"} component= {Homepage}/>
-            <Route path = {"/:id"} component = {Nextpage}/>
+            <Route path={"/:id"} component={Nextpage} />
+            
         </Switch>
     )
 }
