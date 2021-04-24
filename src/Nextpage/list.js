@@ -4,7 +4,7 @@ import DispList from './dispList';
 import Buttons from './buttons';
 
 const List = ({ info }) => {
-    const { id } = info.params
+    const { id } = info.params;
 
     const [list, setList] = useState([]);
     const [curId, setCurId] = useState(id);
@@ -38,7 +38,7 @@ const List = ({ info }) => {
         )}
 
     return (
-        <div>(
+        <div>
             <DispList id={id} list={list}/>
             <div className = "buttons">
             {
