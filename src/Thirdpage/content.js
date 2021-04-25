@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Content = ({content,detail}) => {
+const Content = ({ content, detail }) => {
+    
     return (
-        <div className = "div-details">
+        <div className="div-details">            
             <h2>{ (detail.data.name || detail.data.title).toUpperCase()}</h2>
             <ul>
             {
@@ -13,7 +14,7 @@ const Content = ({content,detail}) => {
                 })
                 }
                 </ul>
-        </div>
+            </div>
     )
 }
 

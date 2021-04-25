@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Content from './content';
+import Navbar from '../Nextpage/navbar';
 
 const Details = ({ match }) => {
     const {id,id1} = match.params
@@ -25,10 +26,10 @@ const Details = ({ match }) => {
         setDetail(details);
         
     }
-    console.log(detail);
 
     return (
         <div>
+            <Navbar name = {match} />
                {detail === undefined ? console.log() : <Content content = {content[id]} detail = {detail} />}
         </div>
     )

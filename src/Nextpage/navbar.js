@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import List from './list';
 import { NavLink } from 'react-router-dom';
 
 const top = ['films','species','planets','people','starships','vehicles']
 
 const Navbar = ({ name }) => {
     const [select, setSelect] = useState(name.params.id);
-
+   
     const handleClick = (e) => {
         setSelect(e.target.innerText.toLowerCase());
     }
@@ -22,7 +21,7 @@ const Navbar = ({ name }) => {
                 })}
                 </ul>
             </div>
-            <List info={name}/>
+            
         </div>
     )
 
