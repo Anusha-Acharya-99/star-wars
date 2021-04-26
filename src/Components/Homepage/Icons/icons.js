@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import films from '../images/films_normal.png';
-import species from '../images/species_normal.png';
-import planets from '../images/planets_normal.png';
-import people from '../images/characters_normal.png';
-import starship from '../images/droids_normal.png';
-import vehicles from '../images/vehicles_normal.png';
-import filmsHov from '../images/films_pressed.png';
-import speciesHov from '../images/species_pressed.png';
-import planetsHov from '../images/planets_pressed.png';
-import peopleHov from '../images/characters_pressed.png';
-import starshipHov from '../images/droids_pressed.png';
-import vehiclesHov from '../images/vehicles_pressed.png';
-import IconsDisplay from './iconsDisplay';
-import '../App.css';
+import films from '../../../Images/films_normal.png';
+import species from '../../../Images/species_normal.png';
+import planets from '../../../Images/planets_normal.png';
+import people from '../../../Images/characters_normal.png';
+import starship from '../../../Images/droids_normal.png';
+import vehicles from '../../../Images/vehicles_normal.png';
+import filmsHov from '../../../Images/films_pressed.png';
+import speciesHov from '../../../Images/species_pressed.png';
+import planetsHov from '../../../Images/planets_pressed.png';
+import peopleHov from '../../../Images/characters_pressed.png';
+import starshipHov from '../../../Images/droids_pressed.png';
+import vehiclesHov from '../../../Images/vehicles_pressed.png';
+import IconsDisplay from '../IconsDisplay/iconsDisplay';
+import './icons.css';
 
 let Data = [
     { name: "FILMS", src: films, srcHov: filmsHov },

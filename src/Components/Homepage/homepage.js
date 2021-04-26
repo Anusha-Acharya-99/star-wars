@@ -1,7 +1,7 @@
 import React from 'react';
-import Icons from './icons';
-import Logo from './logo';
-import Footer from './footer';
+import Icons from './Icons/icons';
+import Logo from '../Logo/logo';
+import Footer from '../Footer/footer';
 
 const Homepage = () =>{
     return (

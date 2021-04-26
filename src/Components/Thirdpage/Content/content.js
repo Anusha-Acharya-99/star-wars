@@ -1,11 +1,12 @@
 import React from 'react';
+import './content.css'
 
 const Content = ({ content, detail }) => {
     
     return (
         <div className="div-details">            
             <h2>{ (detail.data.name || detail.data.title).toUpperCase()}</h2>
-            <ul>
+            <ul className = "ul-details">
             {
                 content.map((element, index) => {
                     return (

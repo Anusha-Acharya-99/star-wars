@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../Homepage/logo';
-import Footer from '../Homepage/footer';
+import Logo from '../Logo/logo';
+import Footer from '../Footer/footer';
 import Details from './details';
 
 const Thirdpage = ({match}) => {

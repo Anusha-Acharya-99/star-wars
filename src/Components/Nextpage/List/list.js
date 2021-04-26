@@ -1,7 +1,8 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
-import DispList from './dispList';
-import Buttons from './buttons';
+import DispList from '../DispList/dispList';
+import Buttons from '../Buttons/buttons';
+import './list.css';
 
 const List = ({ info }) => {
     const { id } = info.params;
